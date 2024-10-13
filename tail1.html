@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <title>MY personal portfolio</title>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Section d'en-tête -->
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">𝑅𝒪𝒰𝒦𝒜𝒴𝒜 𝒢𝐻𝒜𝑅𝐵𝐼</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-blue-500"> 𝐻𝑜𝓂𝑒</a></li>
+                    <li><a href="#projects" class="hover:text-blue-500">𝓅𝓇𝑜𝒿𝑒𝒸𝓉𝓈</a></li>
+                    <li><a href="#contact" class="hover:text-blue-500">𝒞𝑜𝓃𝓉𝒶𝒸𝓉</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="h-screen bg-cover bg-center" style="background-image: url('1.png')">
+        <div class="flex items-center justify-center h-full bg-black bg-opacity-50">
+            <h2 class="text-4xl text-white font-bold">ℍ𝕖𝕝𝕝𝕠! 𝕀 𝕒𝕞 ℝ𝕆𝕌𝕂𝔸𝕐𝔸</h2>
+        </div>
+    </section>
+    
+
+    <!-- Section compétences -->
+    <section class="py-16" id="skills">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">𝑀𝑦 𝑠𝑘𝑖𝑙𝑙𝑠</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">HTML & CSS</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">JavaScript</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold">React</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section class="py-16" id="projects">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">𝑀𝑦 𝑝𝑟𝑜𝑗𝑒𝑐𝑡𝑠</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <img src="2.png" alt="Projet 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">𝑝𝑟𝑜𝑗𝑒𝑐𝑡𝑠 1</h3>
+                        <p class="text-gray-600">This is my first project it took me a lot of time and effort but i loved doing it , it is a menu of a rest that i named krusty krab </p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg overflow-hidden shadow">
+                    <img src="3.png" alt="Projet 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">𝑝𝑟𝑜𝑗𝑒𝑐𝑡𝑠 2</h3>
+                        <p class="text-gray-600">It is an agency plan to help people book their flights easily , this one took me a lot of work also..But still worth it</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section class="py-16" id="contact">
+        <div class="max-w-7xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">𝐶𝑜𝑛𝑡𝑎𝑐𝑡 𝑚𝑒</h2>
+            <form class="bg-white p-8 rounded-lg shadow">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="mt-1 block w-full border border-gray-300 rounded-md p-2" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" class="mt-1 block w-full border border-gray-300 rounded-md p-2" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white rounded-md px-4 py-2">Sent</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-6">
+        <div class="max-w-7xl mx-auto px-4 flex justify-between items-center">
+            <p>&copy; 2024 𝙈𝙮 𝙉𝙖𝙢𝙚. 𝘼𝙡𝙡 𝙧𝙞𝙜𝙝𝙩𝙨 𝙧𝙚𝙨𝙚𝙧𝙫𝙚𝙙..</p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-blue-500">𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤</a>
+                <a href="#" class="hover:text-blue-500">𝐓𝐰𝐢𝐭𝐭𝐞𝐫</a>
+                <a href="#" class="hover:text-blue-500">𝐋𝐢𝐧𝐤𝐞𝐝𝐈𝐧</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
